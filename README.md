@@ -8,7 +8,7 @@ This is a **logging script** for FiveM that logs various events to Discord webho
 - 🔄 Supports **multiple webhooks** for different log categories.
 - 🖥️ **Admin logs** for bans, kicks, warnings, spectating, and noclip.
 - 🔧 **Easy configuration** via `config.lua`.
-- 📢 **Webhook test command (`/logtest`)** for debugging.
+- 📢 **Webhook test command (`/testlog`)** for debugging.
 
 ## 📂 Installation
 1. **Download the script** and place it in your FiveM `resources` folder.
@@ -49,7 +49,7 @@ TriggerEvent("qb-logs:server:CreateLog", "police_actions", "Arrest Log", "blue",
 ```
 
 ### **Test Webhook Command**
-Run `/logtest` in the **server console** to test your webhook.
+Run `/testlog` in the **server console** to test your webhook.
 
 ## 📜 License
 This script is **open-source**. Feel free to modify and use it for your FiveM server.
